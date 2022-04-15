@@ -1,0 +1,470 @@
+/*全体　共通
+最初から設定してあるので特に変更
+しなくても大丈夫です♪
+-----------------*/
+body {
+	font-family: Roboto, "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+	line-height: 1.75;
+	font-size: 16px;
+	width: 960;
+}
+
+
+/*　パディングをサイズ内側にする処理　*/
+* {
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/*ーーーーーーーーーーー*/
+/*この下から記述*/
+/*ーーーーーーーーーーー*/
+
+
+
+
+
+/*どの部分のcssに対して
+命令をしているのかコメントを
+記載しよう！
+---------------------*/
+
+
+/*タイトル画像のカスタマイズ
+---------------------*/
+.title_section {
+	height: 465px;
+	background: url(../img/mainbg.png);
+	background-size: cover;
+	background-position: center;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.title_section h1 {
+	font-size: 48px;
+}
+
+.title_section p {
+	font-size: 32px;
+}
+
+
+/*メニュー部のカスタマイズ
+---------------------*/
+.menu_section {
+	height: 80px;
+	display: flex;
+}
+
+.menu_img {
+	width: 35%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.menu_img img {
+	width: 40%;
+}
+
+.menu_link {
+	width: 65%;
+	font-size: 21px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.menu_section{
+	border: solid;
+	border-width: 2px;
+	border-color: #efefef;
+}
+
+/*ABOUT部のカスタマイズ
+---------------------*/
+.about_section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.about_section h2 {
+	color: yellow;
+	font-size: 24px;
+	padding-top: 120px;
+}
+
+.about_p1 {
+	padding-top: 24px;
+}
+
+.about_p2 {
+	padding-top: 64px;
+}
+
+.about_p3 {
+	padding-top: 40px;
+}
+
+.about_p4 {
+	padding-top: 40px;
+	padding-bottom: 80px;
+}
+
+.about_img_slide {
+	width:100%;
+	display: flex;
+	align-items: center;
+	overflow: hidden;
+}
+
+.about_img_all ul {
+	display: flex;
+}
+
+.about_img img {
+	height: 300px;
+}
+
+.about_img_all {
+	animation: loop-slide 20s infinite linear 1s both;
+}
+
+@keyframes loop-slide {
+	from {
+		transform: translateX(0);
+	}
+
+	to {
+		transform: translateX(-100%);
+	}
+}
+
+/*COURSE部のカスタマイズ
+---------------------*/
+.course_section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #fafafa;
+}
+
+.course_section h2 {
+	font-size: 24px;
+	padding-top: 64px;
+}
+
+.course_section_text {
+	padding-bottom: 64px;
+	text-align: center;
+}
+
+.course_section_part {
+	width: 100%;
+	display: flex;
+}
+
+.course_section_part1_img {
+	width: 50%;
+}
+
+.course_section_part1_img img {
+	width: 100%;
+	object-fit: cover;
+}
+
+.course_section_part1_txt_area {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.course_section_part_txt {
+	text-align: left;
+	padding-left: 48px;
+}
+
+.course_section_part_txt p {
+	padding-top: 40px;
+}
+
+.course_section_part2_img {
+	width: 50%;
+}
+
+.course_section_part2_img img {
+	width: 100%;
+	object-fit: cover;
+}
+
+.course_section_part2_txt_area {
+	width: 50%;
+	display: flex;
+	justify-content:flex-end;
+	align-content: flex-end;
+}
+
+.course_section_part2_txt{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: flex-end;
+	padding-right: 48px;
+}
+
+.course_section_part2_txt p {
+	padding-top: 40px;
+}
+
+.course_section_part3_img {
+	width: 50%;
+}
+
+.course_section_part3_img img {
+	width: 100%;
+	object-fit: cover;
+}
+
+.course_section_part3_txt_area {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+/*NEWS部のカスタマイズ
+---------------------*/
+.news_section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.news_section h2 {
+	padding-top: 64px;
+	color: yellow;
+}
+
+.news_text p {
+	padding-bottom: 64px;
+}
+
+.news_all {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.news_l {
+	width: 20%;
+	padding-left: 32px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.dateTime1124 {
+	padding-top: 32px;
+	padding-bottom: 24px;
+}
+
+.news_c {
+	width: 20%;
+	padding-left: 32px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.news_r {
+	width: 20%;
+	padding-left: 32px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.news_button {
+	padding-top: 56px;
+	padding-bottom: 48px;
+}
+
+.news_button button {
+	font-size: 21px;
+	color: white;
+	background-color: #ffd700;
+	width: 300px;
+	height: 60px;
+}
+
+/*ACCESS部のカスタマイズ
+---------------------*/
+.access_section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #fafafa;
+}
+
+.access_section h2 {
+	padding-top: 64px;
+}
+
+.access_section_campany_text p {
+	padding-top: 24px;
+	padding-bottom: 64px;
+}
+
+.access_section_text {
+	padding-top: 64px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.access_section_text li {
+	padding-bottom: 24px;
+}
+
+.access_section_text {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.access_section_text_body {
+	padding-left: 48px;
+}
+
+/*CONACT部のカスタマイズ
+---------------------*/
+.contact_section {
+	padding-top: 56px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.contact_section_head_text p {
+	padding-top: 24px;
+	padding-bottom: 64px;
+}
+
+.contact_section_body_text2 {
+	padding-top: 32px;
+	padding-bottom: 80px;
+}
+
+.contact-table{
+	border-collapse: separate;
+	border-spacing: 0px 28px;
+}
+
+.contact-item {
+	text-align: left;
+}
+
+.contact-item_detail {
+	text-align: left;
+	vertical-align: top;
+}
+
+.contact-body {
+	padding-left: 120px;
+}
+
+.contact-siboudouki {
+	display: block;
+	text-align: left;
+	padding: 10px 0px;
+}
+
+input[type="checkbox"] {
+	-webkit-appearance: none;
+	width: 15px;
+	height: 15px;
+	border: 2px solid #19283C;
+	border-radius: 2px;
+	background:blanchedalmond;
+	opacity: 0.5;
+}
+
+input[type="checkbox"]:checked {
+	background: lightgreen;
+	opacity: 1;
+}
+
+.form-text {
+	width: 200%;
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	max-width: 400px;
+}
+
+.form-text_wide {
+	width: 200%;
+	height: 100px;
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	max-width: 400px;
+}
+
+.send_button {
+	padding-top: 40px;
+	padding-bottom: 60px;
+}
+
+.send_button button {
+	font-size: 21px;
+	color: white;
+	background-color: #ffd700;
+	width: 300px;
+	height: 60px;
+}
+
+/*FOOTER部のカスタマイズ
+---------------------*/
+.footer {
+	font-size: 18px;
+	color: white;
+	background-color: #707070;
+	height: 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+/*
+魔改造へのリンク
+*/
+.makaizou_link{
+	font-size: 30px;
+	text-align: center;
+}

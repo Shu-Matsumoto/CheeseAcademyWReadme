@@ -1,0 +1,1041 @@
+/*
+レスポンシブ対応：PC
+*/
+@media screen and (max-width: 4096px) {
+
+  /*
+  Section:title_section
+  */
+  .title_top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .title_section_menu_area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: auto;
+    flex-wrap: wrap;
+  }
+  
+  .title_section_logo_area img {
+    padding: 40px 20px;
+  }
+
+  .title_section_menu_area ul {
+    list-style-type: none;
+  }
+  
+  .menu_button button {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    border: none;
+  }
+  
+  .menu_title_jpn {
+    font-size: 1.6rem;
+    font-family: "Noto Serif JP",
+      "Times New Roman",
+      "ヒラギノ明朝 Pro W3",
+      "Hiragino Mincho Pro",
+      "ヒラギノ明朝 ProN W3",
+      "Hiragino Mincho ProN",
+      "HG明朝E",
+      "メイリオ",
+      Meiryo,
+      serif;
+  }
+  
+  .menu_title_eng {
+    font-size: 1.6rem;
+    font-family: "Lato",
+      "NotoSansCJKjp",
+      "メイリオ",
+      Meiryo,
+      "ヒラギノ角ゴ ProN",
+      "Hiragino Kaku Gothic ProN",
+      "ＭＳ Ｐゴシック",
+      "MS PGothic",
+      sans-serif;
+    color: green;
+  }
+  
+  .menu_title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .title_section_menu_area li {
+    padding: 10px 10px;
+  }
+  
+  .title_section_menu_list {
+    display: flex;
+  }
+  
+  .title_middle_section {
+    width: 100%;
+    height: calc(100vh - 120px);
+    min-height: 360px;
+    display: flex;
+    justify-content: center;
+    background: url(../img/top_mv.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+  }
+  
+  .title_middle_section p {
+    text-align: center;
+    font-size: 48px;
+    writing-mode: vertical-rl;
+  }
+  
+  /*
+  Section:about_section
+  */
+  .about_section {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .about_section_area {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+  }
+  
+  .about_section_area_l {
+    width: 50%;
+  }
+  
+  .about_section_area_text_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding-right: 50px;
+  }
+  
+  .about_section_area_text_block div {
+    width: 70%;
+  }
+  
+  .about_section_area_title h2 {
+    font-family: "Noto Serif JP",
+    "Times New Roman",
+    "ヒラギノ明朝 Pro W3",
+    "Hiragino Mincho Pro",
+    "ヒラギノ明朝 ProN W3",
+    "Hiragino Mincho ProN",
+    "HG明朝E",
+    "メイリオ",
+    Meiryo,
+    serif;
+    font-size: 2rem;
+    font-weight: 600;
+    color: green;
+  }
+  
+  .about_section_area_r {
+    width: 50%;
+  }
+  
+  .about_section_area_r img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .about_section_area_other_link {
+    padding-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .about_section_area_other_link_wrap
+  {
+    width: 20%;
+    margin: 0% 1%;
+  }
+
+  .about_section_area_other_link_wrap p{
+    margin: 0%;
+    font-size: 1.5rem;
+  }
+
+  .about_section_area_other_link1 {
+    width: 90%;
+    height:175px;
+    background: url(../img/top_bnr01.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .about_section_area_other_link2 {
+    width: 90%;
+    height:175px;
+    background: url(../img/top_bnr03.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .about_section_area_other_link3 {
+    width: 90%;
+    height:175px;
+    background: url(../img/top_bnr02.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  /*
+  Section:strawberry_picking_section
+  */
+  
+  .strawberry_picking_section {
+    margin-top: 100px;
+    height: 800px;
+    background: url(../img/top_box02.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+  }
+  
+  .strawberry_picking_section h2 {
+    padding-top: 50px;
+    font-size: 50px;
+    margin-bottom: 0px;
+  }
+  
+  .strawberry_picking_section_button1 button {
+    font-size: 21px;
+    color: white;
+    background-color: black;
+    border-color: black;
+    width: 300px;
+    height: 60px;
+    margin: 10px 0px;
+  }
+  
+  .strawberry_picking_section_gallery {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .farm_gallery_imgs img {
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+    padding: 0px 10px;
+  }
+  
+  .strawberry_picking_section_button2 button {
+    font-size: 21px;
+    color: white;
+    background-color: black;
+    border-color: black;
+    width: 300px;
+    height: 60px;
+    margin: 10px 0px;
+  }
+  
+  /*
+  Section: Mini Tomato
+  */
+  .mini_tomato_section {
+    margin-top: 80px;
+    display: flex;
+  }
+  
+  .mini_tomato_section_img_area {
+    width: 50%;
+  }
+  
+  .mini_tomato_section_img_area img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .mini_tomato_section_text_area {
+    margin-left: 30px;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .mini_tomato_section_header_area {
+    width: 50%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .mini_tomato_section_text_title {
+    color: green;
+    padding-right: 20px;
+  }
+  
+  .mini_tomato_section_button button {
+    font-size: 21px;
+    color: white;
+    background-color: black;
+    border-color: black;
+    width: 300px;
+    height: 60px;
+    margin: 30px 0px;
+  }
+  
+  /*
+  Section: Shopping
+  */
+  
+  .shopping_section {
+    margin-top: 100px;
+    height: 600px;
+    background: url(../img/top_box04.jpg);
+    background-size: cover;
+    background-position: center;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .shopping_contents_all {
+    width: 60%;
+    height: 70%;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+  }
+  
+  .shopping_section h2 {
+    font-size: 50px;
+    margin-bottom: 0px;
+  }
+  
+  .shopping_section_button1 button {
+    font-size: 21px;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: black;
+    width: 300px;
+    height: 60px;
+    margin: 10px 0px;
+  }
+  
+  /*
+  Section:chokubai
+  */
+  
+  .shopping_section_chokubai_area {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .shopping_section_chokubai_area_l {
+    width: 35%;
+  }
+  
+  .shopping_section_chokubai_area_r {
+    width: 35%;
+  }
+  
+  .shopping_section_chokubai_area h3 {
+    font-size: 30px;
+    color: green;
+  }
+  
+  /*
+  Section:news & blog
+  */
+  .news_blog_section {
+    margin-top: 80px;
+    text-align: center;
+  }
+  
+  .news_blog_section h2 {
+    font-size: 50px;
+    margin-bottom: 0px;
+  }
+  
+  .news_blog_section_blog_list_area {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .blog_article {
+    width: 20%;
+    text-align: center;
+    margin: 0px 5px;
+  }
+  
+  .blog_thumbnail_img1 {
+    width: 100%;
+    height: 230px;
+    background: url(../img/20220406_130251-300x225.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .blog_thumbnail_img2 {
+    width: 100%;
+    height: 230px;
+    background: url(../img/20220405_120052-300x225.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .blog_thumbnail_img3 {
+    width: 100%;
+    height: 230px;
+    background: url(../img/20220404_110217-225x300.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .blog_thumbnail_img4 {
+    width: 100%;
+    height: 230px;
+    background: url(../img/20220331_133302-300x225.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .blog_thumbnail_title {
+    width: 100%;
+    display: flex;
+  }
+  
+  .blog_title_text_date {
+    width: 70%;
+    font-size: 1.5rem;
+    text-align: left;
+    margin: 0px 0px;
+  }
+  
+  .blog_title_logo {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    font-size: 1.5rem;
+    margin: 0px 0px;
+    background-color: #6DA925;
+    color: white;
+  }
+  
+  .blog_text_body {
+    text-align: left;
+    font-size: 1.5rem;
+  }
+  
+  .news_blog_section_button_area button {
+    font-size: 21px;
+    color: white;
+    background-color: black;
+    width: 300px;
+    height: 60px;
+    margin: 10px 0px;
+  }
+  
+  .news_blog_section_map_area {
+    margin: 50px 0px;
+  }
+  
+  /*
+  Section: footer
+  */
+  .footer {
+    height: 50px;
+    background-color: white;
+    border-top: 1px solid black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 10px;
+  }
+
+  /*
+  Global Control: Move to page top
+  */
+  .move_page_top {
+    position: fixed;
+    right: 25px;
+    bottom: 0px;
+    z-index: 100;
+    /*コントロールの重なりを制御　最前面に指定*/
+    /*
+    background-color: #ddd;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: #fff;
+    line-height: 50px;
+    text-align: center;
+    */
+  }
+  
+  .move_page_top:hover {
+    cursor: pointer;
+    /*カーソル合わせたときにポインタへ変更*/
+    opacity: 0.7;
+    /*カーソル合わせたときにコントロールを半透明にする*/
+  }
+
+  /*
+    Global Control: Hamburger_menu
+  */
+
+  /*ハンバーガーメニューボタン*/
+  /*メニューボタンの表記を３本横線にする*/
+  .menu-button {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    width: 15%;
+    height: 6.5%;
+    justify-content: center;
+    align-items: center;
+    z-index: 90;
+    background-color: #6DA925;
+  }
+  .menu-button span,
+  .menu-button span:before,
+  .menu-button span:after {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 25px;
+    border-radius: 3px;
+    background-color: #ffffff;
+    position: absolute;
+  }
+  .menu-button span:before {
+    bottom: 8px;
+  }
+  .menu-button span:after {
+    top: 8px;
+  }
+
+  /*メニューオープン時のXマークの描画*/
+  /*ついでにカラーも反転させる*/
+  #menu-button-check:checked~.menu-button span {
+    background-color: rgba(255, 255, 255, 0);
+  }
+  #menu-button-check:checked~.menu-button span::before {
+    bottom: 0;
+    transform: rotate(45deg);
+    background-color: #6DA925;
+  }
+  #menu-button-check:checked~.menu-button span::after {
+    top: 0;
+    transform: rotate(-45deg);
+    background-color: #6DA925;
+  }
+  #menu-button-check:checked~.menu-button {
+    background-color: white;
+  }
+
+  /*チェック有無判定用で使用するチェックボックスを非表示*/
+  #menu-button-check {
+    display: none;
+  }
+
+  /*ハンバーガーメニューコンテンツ*/
+  /*位置、サイズ、色の指定*/
+  .hamburger_menu_content {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 80;
+    background-color: #6DA925;
+  }
+  
+  /*行間の指定*/
+  .hamburger_menu_content ul {
+    padding: 70px 10px 0;
+  }
+  /*行間を区切るアンダーライン描画*/
+  .hamburger_menu_content ul li {
+    border-bottom: solid 1px #ffffff;
+    list-style: none;
+    text-align: center;
+  }
+  
+  /*メニュー文字列描画*/
+  .hamburger_menu_content ul li a {
+    display: block;
+    width: 100%;
+    font-size: 1.5rem;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 9px 15px 10px 0;
+    position: relative;
+  }
+  
+  /*メニュー全容のビジュアルと初期表示位置指定*/
+  .hamburger_menu_content {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: -100%;
+    /*leftの値を変更してメニューを画面外へ*/
+    z-index: 80;
+    background-color:#6DA925;
+    color: grey;
+    transition: all 0.5s;
+    /*アニメーション設定*/
+  }
+
+  /*ハンバーガークリック字の動き*/
+  #menu-button-check:checked~.hamburger_menu_content {
+    top: 0%;
+    /*メニューを画面内へ*/
+  }
+
+  .top_hamburger_menu{
+    display: none;
+  }
+
+  /*
+    Global Control: Botton fixed menu
+  */
+  .botton_fixed_menu {
+    width: 100%;
+    display: flex;
+  }
+
+  .botton_fixed_menu_items {
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    padding: 0%;
+  }
+
+  /*４つの各ボタンの指定*/
+  .botton_fixed_menu_item {
+    width: 25%;
+    background: #6DA925;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    display: flex;
+    justify-content: center;
+  }
+
+  .botton_fixed_menu_item button{
+    background-color: #6DA925;
+    border: none;
+  }
+
+  .botton_fixed_menu_item button p{
+    margin: 0px 0px;
+    color: white;
+    font-size: 0.8rem;
+  }
+
+  .botton_fixed_menu {
+    display: none;
+  }
+}
+
+/*
+レスポンシブ対応：スマホ
+*/
+@media screen and (max-width: 599px) {
+
+  #container {
+    padding-top: 150px;
+  }
+
+  .title_section_logo img{
+    width: 140px;
+  }
+
+  .title_section_menu_list{
+    display: none;
+  }
+
+  .title_section_logo_area img {
+    padding: 10px 5px;
+  }
+
+  .move_page_top{
+    display: none;
+  }
+
+  .top_hamburger_menu {
+    display:block;
+  }
+
+  .botton_fixed_menu {
+    display: block;
+    padding-top: 80px;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    left: 0px;
+    bottom: -15px;
+  }
+
+  .about_section {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .about_section_area {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  
+  .about_section_area_l {
+    width: 100%;
+  }
+  
+  .about_section_area_text_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 0%;
+    align-content: center;
+  }
+  
+  .about_section_area_text_block div {
+    width: 100%;
+  }
+  
+  .about_section_area_r {
+    width: 100%;
+  }
+
+  .about_section_area_title h2 {
+    font-size: 2.0rem;
+    color: green;
+  }
+  
+  .about_section_area_r img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  
+  .about_section_area_other_link {
+    display: none;
+  }
+
+  .about_section_area_other_link {
+    padding-top: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+  }
+  
+  .about_section_area_other_link_wrap
+  {
+    width: 80%;
+  }
+
+  .about_section_area_other_link_wrap p{
+    margin: 0%;
+    font-size: 1.0rem;
+  }
+
+  .about_section_area_other_link1 {
+    width: 100%;
+    height: 100px;
+    background: url(../img/top_bnr01.jpg);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 0%;
+  }
+  
+  .about_section_area_other_link2 {
+    width: 100%;
+    height: 100px;
+    background: url(../img/top_bnr03.jpg);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 0%;
+  }
+  
+  .about_section_area_other_link3 {
+    width: 100%;
+    height: 100px;
+    background: url(../img/top_bnr02.jpg);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 0%;
+  }
+
+  .about_section_area_other_link_wrap{
+    padding: 5px;
+  }
+
+  .strawberry_picking_section {
+    margin-top: 5%;
+    width: 100%;
+    height: 850px;
+  }
+
+  .strawberry_picking_section_title h2{
+    font-size: 2.0rem;
+  }
+
+  .strawberry_picking_section_body {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+  }
+
+  .strawberry_picking_section_body p{
+    width: 95%;
+  }
+
+  .strawberry_picking_section_gallery {
+    padding-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .farm_gallery_imgs{
+    width: 40%;
+    height: 100px;
+    padding: 1% 1%;
+  }
+  
+  .farm_gallery_imgs img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding: 0% 0%;
+  }
+
+  .mini_tomato_section{
+    width: 100;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mini_tomato_section_img_area{
+    width: 100%;
+  }
+
+  .mini_tomato_section_text_area{
+    width: 100%;
+    margin: 0%;
+  }
+
+  .mini_tomato_section_header_area{
+    width: 100%;
+  }
+
+  .mini_tomato_section_text_title{
+    width: 60%;
+  }
+
+  .mini_tomato_section_text_title h2{
+    font-size: 2.0rem;
+    margin: 0%;
+  }
+
+  .mini_tomato_section_text_title p {
+    margin: 0%;
+  }
+
+  .mini_tomato_section_button{
+    display: flex;
+    justify-content: center;
+  }
+
+  .shopping_section {
+    margin-top: 0%;
+    height: 500px;
+  }
+  
+  .shopping_contents_all {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+  }
+  
+  .shopping_section h2 {
+    font-size: 2.0rem;
+  }
+
+  .shopping_section_body {
+    width: 90%;
+    text-align: left;
+  }
+
+  .shopping_section_chokubai_area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+  }
+  
+  .shopping_section_chokubai_area_l {
+    width: 100%;
+  }
+  
+  .shopping_section_chokubai_area_r {
+    width: 100%;
+  }
+  
+  .shopping_section_chokubai_area h3 {
+    font-size: 2.0rem;
+    text-align: center;
+  }
+  
+  .news_blog_section {
+    margin-top: 0%;
+    text-align: center;
+  }
+  
+  .news_blog_section h2 {
+    font-size: 2.0rem;
+    margin-bottom: 0px;
+  }
+  
+  .news_blog_section_blog_list_area {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .blog_article {
+    width: 47%;
+    text-align: center;
+    margin: 0px 5px;
+  }
+  
+  .blog_thumbnail_img1 {
+    width: 100%;
+    height: 150px;
+    background: url(../img/20220406_130251-300x225.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .blog_thumbnail_img2 {
+    width: 100%;
+    height: 150px;
+    background: url(../img/20220405_120052-300x225.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .blog_thumbnail_img3 {
+    width: 100%;
+    height: 150px;
+    background: url(../img/20220404_110217-225x300.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .blog_thumbnail_img4 {
+    width: 100%;
+    height: 150px;
+    background: url(../img/20220331_133302-300x225.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .blog_thumbnail_title {
+    width: 100%;
+    display: flex;
+  }
+  
+  .blog_title_text_date {
+    width: 70%;
+    font-size: 13px;
+    text-align: left;
+    margin: 0px 0px;
+  }
+  
+  .blog_title_logo {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    font-size: 10px;
+    margin: 0px 0px;
+    background-color: #6DA925;
+    color: white;
+  }
+  
+  .blog_text_body {
+    text-align: left;
+    font-size: 13px;
+  }
+  
+  .news_blog_section_button_area button {
+    font-size: 21px;
+    color: white;
+    background-color: black;
+    width: 300px;
+    height: 60px;
+  }
+  
+}
